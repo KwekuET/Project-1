@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Page</title>
+</head>
+<h1>Form Page</h1>
+    <a href="index.html">Back to Home</a>
 
+    <form>
+      <fieldset>
+        <legend>Account Details</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="grade">Choose the grade you're in:</label>
+        <br>
+        <input type="radio" id="elementary" name="grade" value="elementary" checked>
+        <label for="elementary">Elementary</label>
+        <br>
+        <input type="radio" id="highschool" name="grade" value="highschool">
+        <label for="highschool">High School</label>
+        <br>
+        <input type="radio" id="college" name="grade" value="college">
+        <label for="college">College</label>
+        <br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="6" cols="40"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+</body>
+</html>
